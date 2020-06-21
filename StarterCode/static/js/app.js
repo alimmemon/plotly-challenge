@@ -1,5 +1,5 @@
 
-// __menu__ialize the Page
+// inialize menu in the Page
 function __menu__() {
   d3.json("samples.json").then((data) => {
 
