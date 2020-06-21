@@ -118,6 +118,7 @@ function optionChanged(select_value) {
     // somewhere on the page.   
     Object.entries(filtered_meta_data[0]).forEach(([key, value]) => {
       sample_meta_data.append("p").text(`${key}: ${value}`);
-    })   
+    });
+  });
 }
 __menu__();
